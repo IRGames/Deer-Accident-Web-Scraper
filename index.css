@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: no-repeat url("./Resources_1/background3.png");
+	background-attachment: fixed;
+	background-size: cover;
+  font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	display: block;
+}
+
+button{
+	border-color: #bb2200;
+  transition: all .2s ease-in-out;
+  font-size: 2em;
+  color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+  background: none;
+  border: none;
+}
+
+h1{
+	letter-spacing: 5px;
+	font-size: 60px;
+	margin: 20px;
+}
+
+h2{
+	letter-spacing: 2px;
+	font-size: 20px;
+	font-style: italic;
+	margin: 20px;
+}
+
+input{
+	display: none;
+}
+
+.containers{
+	padding:  10px;
+	width: 50%;
+	height: 100vh;
+	min-width: 400px;
+	min-height: 400px;
+}
+
+.loadData {
+	background-color: #4b8ce6;
+}
+
+.loadWeather{
+	background-color: #86b8ff;
+}
+
+.parent-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#bottom{
+	position: absolute;
+
+	bottom: 20px;
+	left: 50%;
+	transform:translateX(-50%);
+}
+
+#instructions{
+	margin: 30px;
+}
+
+#input-style{
+	border: 1px solid #ccc;
+	display: inline-block;
+	padding: 6px 12px;
+	cursor: pointer;
+	  transition: all .4s ease-in-out;
+}
+
+#input-style:hover{
+	background-color: black;
+	border-radius: 30px;
+}

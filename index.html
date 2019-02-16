@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<LINK REL=StyleSheet HREF="index.css" TYPE="text/css" MEDIA=screen>
+	<html>
+	<head>
+		<title> Deer Web Scraper </title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="Scripts/FileSaver.js"></script>
+	</head>
+	<h1> Deer Web Scraper </h1>
+	<h2> An app that uses the local paper "http://www.dailybulldog.com/" to get the number of deer accidents on each date </h2>
+	<div id="instructions">
+		<i>Note:  The data needs to be a .txt file.  Each new line must be an http address from <a href = "http://www.dailybulldog.com/db/">http://www.dailybulldog.com/db/</a>'s sheriff's report.  See the included "Deer List.txt" file for an example.</i>
+	</div>
+  <div id = "bottom">
+	<label id="input-style">
+		Click here to upload the .txt file
+		<input type="file" id="deerInput" />
+	</label>
+	<i id = 'loadingDeerPercent'></i>
+	<label id="input-style" onclick = 'searchURLAndDownload()'>
+		Click to download deer data
+	</button>
+  </div>
+		<script src="Scripts/Extracting Deer Data.js"></script>
+		<script src="Scripts/WebScraper.js"></script>
