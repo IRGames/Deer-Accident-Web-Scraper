@@ -2,7 +2,7 @@
 HTML5 project to scrape deer data from local sheriff's reports
 
 # Installation
-The site is running on https://irgames.github.io/Deer-Accident-Web-Scraper/
+The site is running on https://isaacraymond.github.io/Deer-Accident-Web-Scraper/
 
 For your local machine, however:
 Download the zip file and open main.html in a web browser.  
